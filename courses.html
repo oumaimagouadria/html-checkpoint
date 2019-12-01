@@ -13,22 +13,24 @@
                 <a href="contact.html" > contact</a> 
             </li>   
         </ul>
-        <form>
+        <form> 
+            <center>
             <h1>courses</h1>
             <br>
             <h3>feedback</h3>
-            <button type='button' onclick="bold()">B</button>
+</center>
+            <button type='button' onclick="boldx()">B</button>
             <button type="button" onclick="italic()">I</button>
             <button type="button" onclick="underline()" >Underline </button>
                 
-            <select>
-                <option>20px</option>
-                <option>30px</option>
-                <option>40px</option>
+            <select onchange="fontsize()" id="fonts">
+                <option value="20">20px</option>
+                <option value="30">30px</option>
+                <option value="40">40px</option>
 
             </select>
         
-             <select>
+             <select onchange="fontfamily()" id="fontss"> 
                      <option>arial</option>
                      <option>verdana</option>
                      <option> Geneva</option>
@@ -39,6 +41,6 @@
              <textarea cols="50" rows="20" id="textarea"></textarea>
 
         </form>
+        <script src="js/main.js"></script>
     </body>
-    <script src="js/main.js"></script>
     </html>

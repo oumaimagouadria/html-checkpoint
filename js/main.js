@@ -1,45 +1,57 @@
-function bold(){
-    console.log("test")
-    var textarea=document.getElementById("textarea");
-    if ( textarea.style.fontWeight = 'normal') {
-        textarea.style.fontWeight = 'bold';
+function boldx() {
+    var textarea = document.getElementById("textarea");
+    console.log(textarea.style.fontWeight);
+    if (textarea.style.fontWeight == 'bold') {
+        textarea.style.fontWeight = '';
     }
     else {
-        textarea.style.fontWeight = 'normal';
+        textarea.style.fontWeight = 'bold';
     }
+}
+
+function italic() {
+    var textarea = document.getElementById("textarea");
+    console.log(textarea.style.fontstyle)
+    if (textarea.style.fontStyle == 'normal') {
+        textarea.style.fontStyle = 'italic';
+    }
+    else {
+        textarea.style.fontStyle = 'normal';
+    }
+}
+
+function underline() {
+    var textarea = document.getElementById("textarea");
+    console.log(textarea.style.textDecoration)
+
+    if (textarea.style.textDecoration == '') {
+        textarea.style.textDecoration = 'underline';
+    }
+    else {
+        textarea.style.textDecoration = '';
+    }
+}
+
+function fontsize() {
+    var textarea = document.getElementById("textarea");
+    var size = document.getElementById("fonts");
+    textarea.style.fontSize = size.options[size.selectedIndex].text;
 
 
 }
 
-    function italic(){
-        console.log("test")
-        var textarea=document.getElementById("textarea");
-        if (textarea.style.fontStyle == 'normal') {
-            textarea.style.fontStyle = 'italic';
-        }
-        else {
-            textarea.style.fontStyle = 'normal';
-        }
-        
-        
-    }
-    
-    function underline(){
-        console.log("test")
-        var textdecoration=document.getElementById("textdecoration");
-        if (textdecoration.style.fontStyle == 'normal') {
-            textdecoration.style.fontStyle = 'underline';
-        }
-        else {
-            textarea.style.fontStyle = 'normal';
-        }
-        
-        
-    }
-{
-    var fontSize = document.getElementById('fontSize');
-    fontSize.onchange = function () {
-        var txtBox = document.getElementById("txtBox")
-        txtBox.style.fontSize = this.value +"px";
-    }
+
+
+function fontfamily() {
+    var textarea = document.getElementById("textarea");
+    var family = document.getElementById("fontss");
+    textarea.style.fontFamily = family.options[family.selectedIndex].text;
+
+
 }
+
+
+
+
+
+
