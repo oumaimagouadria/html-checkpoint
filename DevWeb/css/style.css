@@ -1,10 +1,46 @@
 
-a:active{ color:greenyellow; }
-a:visited {color:red; }
-#img1{ 
-    background: linear-gradient(#e66465, #9198e5);}
-#img2{ background:linear-gradient(127deg, black, black 70.71%);}
-#img3{ background:linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);}
+a:active{ color:white ; }
+a:hover {color:red; }
+#logo
+{ width: 45px;
+height:45px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 23%;
+    margin-right: 23%;
+    
+  }
+  
+  li {
+    display: inline;
+  }
+    
+  li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+body
+{Background-image:
+
+    Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+            }
+p 
+{ color: beige;}
 img {
     width: 100%;
 }
+
