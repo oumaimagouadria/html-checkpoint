@@ -1,24 +1,34 @@
 <!DOCTYPE <html>
-        <head></head>
+        <head>
+                <link rel="stylesheet" href ="css/style.css"> 
+        </head>
     </html>
-    <body>
+    <body textalign='center'> 
+      <img src="https://gomycode.tn/images/section2GMCLogo.png" id="logo" align="left">
         <ul>
             <li>
-                <a href="index.html"> index</a>
-            </li>
+                <a href="index.html"> HOME</a>
+            </li>      
             <li>
-                <a href="courses.html"> courses</a>
+                <a href="courses.html"> COURSES</a>
             </li> 
             <li>
-                <a href="contact.html" > contact</a> 
+                <a href="contact.html" > CONTACT</a> 
             </li>   
         </ul>
+
         <form> 
-            <center>
-            <h1>courses</h1>
-            <br>
-            <h3>feedback</h3>
-</center>
+
+                <div class="cover">
+                        <h1 class="heading">COURSES</h1>
+                    </div> 
+                    
+
+    <div>
+                    <h2>Feedback</h12> <br>
+                    </div>                        
+                                                      
+ 
             <button type='button' onclick="boldx()">B</button>
             <button type="button" onclick="italic()">I</button>
             <button type="button" onclick="underline()" >Underline </button>
@@ -26,6 +36,7 @@
             <select onchange="fontsize()" id="fonts">
                 <option value="20">20px</option>
                 <option value="30">30px</option>
+
                 <option value="40">40px</option>
 
             </select>
@@ -38,7 +49,9 @@
 
              </select>
              <br>
-             <textarea cols="50" rows="20" id="textarea"></textarea>
+             
+             <textarea cols="50" rows="10" id="textarea"></textarea>
+        
 
         </form>
         <script src="js/main.js"></script>
