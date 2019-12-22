@@ -39,7 +39,9 @@ body
     
             }
 p 
-{ color: beige;}
+{ color: beige;
+  font-family: cursive;
+}
 img {
     width: 100%;
 }
@@ -69,6 +71,181 @@ body {
   text-align: center;
 }
 
-h2 {
-  color:white
+h2 h1 {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
 }
+.navbar{
+  background-color: transparent !important;
+  border-color:transparent !important;
+}
+
+#fade{
+   display:none;
+}
+
+.course1{
+  width: 250px;
+  height: 250px;
+background-image:url("../res/img1.png");
+background-size: cover;
+display: inline-block;
+margin-left:50px ;
+overflow:hidden;
+}
+
+.course2{
+   width: 250px;
+  height: 250px; 
+  margin-left:50px ;
+  background-size: cover;
+background-image:  url("../res/img2.png");
+display: inline-block;
+overflow:hidden;
+}
+.course3{ 
+  width: 250px;
+  height: 250px;
+  margin-left:50px ;
+  background-size: cover;
+background-image:url("../res/img3.png") ;
+display: inline-block;
+overflow:hidden;
+}
+
+.course4{
+  width: 250px;
+  height: 250px;
+  margin-left:50px ;background-size: cover;
+background-image: url("../res/img4.png");
+display: inline-block;
+overflow:hidden;
+}
+
+.course5{
+  width: 250px;
+  height: 250px;
+  margin-left:50px ;
+  background-size: cover;
+background-image: url("../res/img5.png" );
+ display: inline-block;
+ overflow:hidden;}
+
+.course6{
+  width: 250px;
+  height: 250px;
+  margin-left:50px ;
+  background-size: cover;
+background-image: url("../res/img6.png");
+display: inline-block;  
+overflow:hidden;
+}
+
+.course7{ width: 250px;
+  height: 250px;
+  margin-left:50px ;
+  background-size: cover;
+background-image:   url( "../res/img7.png")  ;
+ display: inline-block; 
+ overflow:hidden;
+}
+
+
+.course8{ width: 250px;
+  height: 250px;
+  margin-left:50px ;
+  background-size: cover;
+background-image: url("../res/img8.png");
+display: inline-block; overflow:hidden;}
+
+.course9{ width: 250px;
+  height: 250px;
+  margin-left:50px ;background-size: cover;
+background-image: url("../res/img9.png") ;
+display: inline-block;
+overflow:hidden;}
+
+.boutton1{
+  margin-top:120px;
+  display:none;
+}.course1:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+
+
+.boutton2{
+  margin-top:120px;
+  display:none;
+}.course2:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+
+.boutton3{
+  margin-top:120px;
+  display:none;
+}.course3:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+
+.boutton4{
+  margin-top:120px;
+  display:none;
+}.course4:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+
+.boutton5{
+  margin-top:120px;
+  display:none;
+}.course5:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+
+.boutton6{
+  margin-top:120px;
+  display:none;
+}.course6:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+
+.boutton7{
+  margin-top:120px;
+  display:none;
+}.course7:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+
+.boutton8{
+  margin-top:120px;
+  display:none;
+}
+.course8:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+
+.boutton9{
+  margin-top:120px;
+  display:none;
+}
+.course9:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+
+
+.boutton1Hover{
+  display:inline !important;
+  opacity: 1 !important;
+}
+

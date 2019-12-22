@@ -53,5 +53,66 @@ function fontfamily() {
 
 
 
+$(".course1").hover(function(){
+    $(".boutton1").toggleClass('boutton1Hover')
+})
 
+$(".course2").hover(function(){
+    $(".boutton2").toggleClass('boutton1Hover')
+})
 
+$(".course3").hover(function(){
+    $(".boutton3").toggleClass('boutton1Hover')
+})
+
+$(".course4").hover(function(){
+    $(".boutton4").toggleClass('boutton1Hover')
+})
+
+$(".course5").hover(function(){
+    $(".boutton5").toggleClass('boutton1Hover')
+})
+
+$(".course6").hover(function(){
+    $(".boutton6").toggleClass('boutton1Hover')
+})
+
+$(".course7").hover(function(){
+    $(".boutton7").toggleClass('boutton1Hover')
+})
+
+$(".course8").hover(function(){
+    $(".boutton8").toggleClass('boutton1Hover')
+})
+
+$(".course9").hover(function(){
+    $(".boutton9").toggleClass('bouttonHover')
+})
+
+$(".course1").click(function(){
+    $("#ex1").modal("open");
+});
+$(".course2").click(function(){
+    $("#ex1").modal("open");
+});
+$(".course3").click(function(){
+    $("#ex1").modal("open");
+});
+$(".course4").click(function(){
+    $("#ex1").modal("open");
+});
+$(".course5").click(function(){
+    $("#ex1").modal("open");
+});
+$(".course6").click(function(){
+    $("#ex1").modal("open");
+});
+$(".course7").click(function(){
+    $("#ex1").modal("open");
+});
+$(".course8").click(function(){
+    $("#ex1").modal("open");
+});
+$(".course9").click(function(){
+    $("#ex1").modal("open");
+});
