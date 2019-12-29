@@ -40,7 +40,6 @@ body
             }
 p 
 { color: beige;
-  font-family: cursive;
 }
 img {
     width: 100%;
@@ -77,10 +76,6 @@ h2 h1 {
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 30px;
-}
-.navbar{
-  background-color: transparent !important;
-  border-color:transparent !important;
 }
 
 #fade{
@@ -248,4 +243,30 @@ overflow:hidden;}
   display:inline !important;
   opacity: 1 !important;
 }
+.navbar{
+  background-color: transparent !important;
+  border-color:transparent !important;
+}
+#ulNav{
+  margin-left:23%;
+}
 
+#ulNav>li{
+  margin-left:70px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+#ulNav>li>a{
+  color:white !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ulNav>li>a:hover {
+  color:red !important;
+}
+
+label{
+  color:white !important;
+}
