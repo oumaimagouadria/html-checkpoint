@@ -116,3 +116,54 @@ $(".course8").click(function(){
 $(".course9").click(function(){
     $("#ex1").modal("open");
 });
+
+
+
+
+var firebaseConfig = {
+    apiKey: "AIzaSyCdO8dJcQKs9Mh6WDa-JPG6qJtJ-Sxjr1s",
+    authDomain: "gmcfirst-87f27.firebaseapp.com",
+    databaseURL: "https://oumaimagouadria-ff1f5.firebaseio.com/",
+    projectId: "gmcfirst-87f27",
+    storageBucket: "gmcfirst-87f27.appspot.com",
+    messagingSenderId: "465629966566",
+    appId: "1:465629966566:web:9690e9f0d1489c96944b27"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  var messagesRef = firebase.database().ref('Contact');
+
+
+  var messagesRef = firebase.database().ref('Contact');
+
+  document.getElementById('contactform').addEventListener('submit', submitForm);
+  
+  
+  function submitForm(e){
+    e.preventDefault();
+    var name = getInputVal('name');
+    var track = getInputVal('track');
+    var email = getInputVal('email');
+    var phone = getInputVal('phone');
+    console.log(name);
+    console.log(track);
+    console.log(email);
+    console.log(phone);
+    saveMessage(name,track,email,phone);
+  
+  }
+  
+  function getInputVal(id){
+    return document.getElementById(id).value;
+  }
+  
+  function saveMessage(name,track,email,phone){
+    var newMessageRef = messagesRef.push();
+    newMessageRef.set({
+      name:name,
+      track:track,
+      email:email,
+      phone:phone
+    });
+  }
